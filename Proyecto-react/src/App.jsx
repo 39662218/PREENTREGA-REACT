@@ -2,8 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import MainLayout from './layouts/MainLayout'
 
 
 function App() {
@@ -38,6 +37,17 @@ function App() {
 const Title= () => {
   return
   <h1> Bienvenidos  </h1>
+}
+
+
+function App(){
+  return (
+    <MainLayout title="Tienda Pixies">
+     <ButttonComponent>
+      
+     </ButttonComponent>
+    </MainLayout>
+  )
 }
 
 export default App

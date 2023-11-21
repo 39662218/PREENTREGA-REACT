@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavBarComponent from './components/NavBarComponents/NavBarComponent';
+import Nav from "./components/NavBarComponents/NavBarComponents";
 import { useState } from 'react';
-import '../src/index.css';
+import "../src/index.css";
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import "./App.css";
 
@@ -14,7 +14,7 @@ function App () {
    <div>
 
 
-    <NavBarComponent/>
+    <NavBarComponents/>
     <ItemListContainer greeting="PIXIES TIENDA ONLINE"/>
     
   </div>

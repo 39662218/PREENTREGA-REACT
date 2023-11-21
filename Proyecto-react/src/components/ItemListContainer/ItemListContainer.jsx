@@ -1,15 +1,13 @@
-const ItemListContainer = ({greeting}) => {
-    const greetingStyles=  {
-        fontSize:   '3rem',
-        fontWeight: '700',
-        textAlign:  'center',
-        color:'black'
-    }
+import React from "react";
+import Products from "Productsdata.js"
+
+const ItemListContainer =() => {
+    
     return (
-        <div style={greetingStyles}>
-            {greeting}
+        <div>
+          
         </div>
-    )
+    );
 }
 
 export default ItemListContainer;

@@ -1,10 +1,11 @@
-import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar'; // Agrega la importación de Navbar
-import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import CartWidget from "../CartWidget/CartWidget";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
+import CartWidget from "./CartWidget/CartWidget.jsx";
+import "./index.css";
 
-const NavBarComponent = () => {
+ export const NavBarComponent = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>

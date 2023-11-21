@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { getAllProducts, getSingleProducts } from "../services";
+import { getAllProducts, getSingleProducts } from "../Data";
 
 export const useAllProducts = (limit) => {
   const [products, setProducts] = useState([]);
